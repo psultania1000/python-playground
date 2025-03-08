@@ -1,0 +1,13 @@
+prefix=/Users/priyansh/dev/python/playground/venv
+exec_prefix=/Users/priyansh/dev/python/playground/venv
+libdir=/Users/priyansh/dev/python/playground/venv/lib
+sharedlibdir=/Users/priyansh/dev/python/playground/venv/lib
+includedir=/Users/priyansh/dev/python/playground/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
