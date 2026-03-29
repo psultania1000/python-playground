@@ -1,0 +1,6 @@
+Goal: Master asynchronous logic at a fundamental level.
+Description: Build a playground that demonstrates promises, async/await, 
+and generators — simulate API calls, timeouts, and races.
+Skills: Event loop, microtasks vs macrotasks, concurrency control, 
+custom promise implementation.Stretch Goal: Write your own minimal version of 
+Promise.all, Promise.race, and an async scheduler.
